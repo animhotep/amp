@@ -1,4 +1,6 @@
 ## A path:
 /sitemap.xml
   # Headers for that path:
-  Content-type: text/xml; charset=UTF-8
+ x-content-type-options: nosniff
+ x-frame-options: SAMEORIGIN
+ x-xss-protection: 1; mode=block
